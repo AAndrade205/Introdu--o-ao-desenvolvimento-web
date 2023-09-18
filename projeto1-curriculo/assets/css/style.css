@@ -12,8 +12,13 @@
     font-family: "Outfit-Regular"; color: rgb(65, 33, 95);
     src: url("../css/fonts/Outfit-Regular.ttf");
 }
-header {
+
+html {
     background-color:  rgb(252, 252, 252);
+}
+header {
+
+    width: 100%;
     padding: 25px;
     display: flex;
     align-items: center;
@@ -42,23 +47,25 @@ main div {
     justify-content: space-between;
 }
 figure img {
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
+    min-width: 50px;
     border-radius: 50%;
 }
 p {
     font-family: Outfit-Regular; color: rgb(21, 11, 31); 
-    width: 50%;
+    width: 80%;
     margin-left: 5px;
     font-size: 15px;
 }
 h2 {
-    font-family: Lobster-Regular; color: rgb(65, 33, 95);
+    font-family: Lobster-Regular; color: rgb(30, 17, 43);
 }
 body {
-    background-color: rgb(242, 255, 207);
+    margin:auto;
 }
 h3 {
-    font-family: Lobster-Regular; color: rgb(65, 33, 95);
+    font-family: Lobster-Regular; color: rgb(30, 17, 43);
     margin-left: 30px;
 }
 section img {
@@ -68,11 +75,11 @@ section img {
 }
 a {
     text-decoration: solid;
-    color: rgb(65, 33, 95);
+    color: rgb(30, 17, 43);
 }
 .description {
   width: 600px;
-  border: 1px; color: rgb(65, 33, 95);
+  border: 1px; color: rgb(30, 17, 43);
   text-align: left;
 }
 .text {
